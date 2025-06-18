@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <!-- icons below-->
+    <script src="https://kit.fontawesome.com/c2644be497.js" crossorigin="anonymous"></script>
+    <!-- fonts below -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <!-- style sheet -->
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- place fav icon here --> 
+    <link rel="icon" href="../Images/favicon.svg">
+
+   <!-- JS file -->
+    <script src="../main.js" defer></script>
+</head>
+<body>
+    <header id="contactHeader" class="otherPagesHeader"> 
+        <h1>Contact Us</h1>
+        <div class="blackBackground">
+            <a href="../pages/index.html"><img src="../Images/logo-yellow.svg" alt=""></a>
+            <div class="nav-and-search">
+                <nav>
+                    <ul id="menu">
+                        <li id="closeIcon" aria-label="close the menu"><button class="icon"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button></li>
+                        <li><a href="./detail.html">Articles</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./sources.html">Sources</a></li> 
+                        <li><form action="#">
+                            <button aria-label="Search" class="icon" type="submit"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i></button>
+                        </form></li>
+                    </ul>
+                    <button aria-label="open a burger menu" class="icon" id="menuButton">
+                        <i  class="fa-solid fa-bars" aria-hidden="true"></i>
+                    </button>
+                    
+                </nav>
+
+            </div> 
+    </div>
+    </header>
+    <main id="contactGrid">
+        <div class="information">
+            <p>We'd love to hear from you! Whether you have a question about our content, are interested in contributing to Interior & Inspiration, or want to discuss potential partnerships, feel free to reach out.</p>
+            <ul>
+                <li><i class="fa-solid fa-phone" aria-hidden="true"></i><a href="tel:1-555-123-4567" aria-label="Call us at (555) 123-4567">(555) 123-4567</a></li>
+                <li><i class="fa-solid fa-envelope" aria-hidden="true"></i><a href="mailto:info@interiorandinspiration.com" aria-label="Email us at info@interiorandinspiration.com">info@interiorandinspiration.com</a></li>
+                <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i><a aria-label="our address is 100 W 49th Ave, Vancouver, BC V5Y 2Z6" href="https://www.google.com/maps/place/100+W+49th+Ave,+Vancouver,+BC+V5Y+2Z6/@49.2244524,-123.108253,17z/data=!3m1!4b1!4m6!3m5!1s0x548675f6ac6c1345:0x45209d44486634fc!8m2!3d49.2244524!4d-123.108253!16s%2Fg%2F11s5h1fgz6?entry=ttu">100 W 49th Ave, Vancouver, BC V5Y 2Z6</a></li>
+            </ul>
+        </div>
+        <aside class="contactForm">
+            <div>
+                <h2>Let's Talk!</h2>
+                <div class="formCaption">* indicates required</div>
+            </div>
+            <form action="https://formspree.io/f/manwojya" method="POST">
+                <label for="name">Name*</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+                <label for="email">Email*</label>
+                <input name="email" type="email" id="email" placeholder="Enter your email" required>
+                <label for="message">Message*</label>
+                <textarea name="message" id="message" placeholder="Enter your message" required></textarea>
+                <button class="primary" type="submit">Submit</button>
+            </form>
+        </aside>
+        
+
+    </main>
+    <footer>
+        <a href="./index.html" aria-label="open homepage"><img src="../Images/logo-yellow.svg" alt="Interior & Inspiration"></a>
+        <p class="whiteFont">An online magazine dedicated to enthusiasts of interior design. Devoted to exploring and showcasing the traces of time: the vintage styles of the 1980s and 1970s.</p>
+        <ul>
+            <li><a href="./detail.html">Articles</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="./sources.html">Sources</a></li>
+        </ul>
+        <p class="whiteFont copyright">© 2024 Interior & Inspirations Magazine All Rights Reserved.</p>
+    </footer>
+    
+</body>
+</html>
